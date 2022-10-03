@@ -1,0 +1,1 @@
+export const REVIEW_NOW_FOUND = "Отзыв с таким id не найден";
