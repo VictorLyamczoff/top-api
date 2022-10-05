@@ -1,7 +1,7 @@
 export class CreateReviewDto {
   name: string;
-  titel: string;
+  title: string;
   description: string;
-  rating: string;
+  rating: number;
   productId: string;
 }
