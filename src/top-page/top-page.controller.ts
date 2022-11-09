@@ -14,7 +14,9 @@ import { TopPageModel } from './top-page.model';
 @Controller('top-page')
 export class TopPageController {
   @Post('create')
-  async create(@Body() dto: Omit<TopPageModel, '_id'>) {}
+  async create(@Body() dto: Omit<TopPageModel, '_id'>) {
+    console.log('test');
+  }
 
   @Get(':id')
   async get(@Param('id') id: string) {}
